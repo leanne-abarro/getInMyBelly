@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Get In My Belly</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="assets/stylesheets/base.css">
+	<link rel="stylesheet" href="assets/stylesheets/skeleton.css">
+	<link rel="stylesheet" href="assets/stylesheets/layout.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<!-- Fonts
+	================================================== -->
+	<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700,300italic,400italic,600italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="assets/images/favicon.ico">
+	<link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114.png">
+
+</head>
+<body>
+   <div class="container selfClear">
+       <!-- top header -->
+        <img class="six columns offset-by-five marginTop20 floatLeft" src="images/getInMyBellyLogoSVG.svg" alt="get-in-my-belly-logo" />
+        <div class="three columns offset-by-two floatLeft paddingTop30">
+            <span class="topNav paddingTop10"><a href="#">Sign-In | Create Account</a></span>
+            <span class="topNav paddingTop10"><a href="#">Shopping Basket (0)</a></span>
+        </div>
+   </div>
+   <!-- navigation -->
+   <div class="container marginBottom20 selfClear">
+        <div class="mainNav colourAA">
+            <ul class="offset-by-five">
+                <li class="floatLeft two columns textAlignCenter"><a class="active-link" href="index.html">Home</a></li>
+                <li class="floatLeft two columns textAlignCenter"><a href="#">Recipes</a></li>
+                <li class="floatLeft two columns textAlignCenter"><a href="#">Shop</a></li>
+            </ul>
+        </div>
+   </div>
+   <!-- header 1 section -->
+   <div class="container">
+       <h1 class="textAlignCenter marginBottom30">User Login</h1>
+       <!-- login form -->
+       <form class="mainForms eight columns floatLeft marginBottom50" action="" method="POST">
+          <h2 class="formHeader paddingTop10 paddingBottom20">Login</h2>
+          <label class="marginBottom10 colour3A" for="username">Username</label>
+          <input type="text" id="username" name="username" value="" />
+          <label class="marginBottom10 colour3A" for="password">Password</label>
+          <input type="text" id="password" name="password" value="" />
+          <input class="blueButton bgBlue marginBottom10" type="submit" id="signIn" name="signIn" value="sign-in" />
+       </form>
+       <!-- sign up form -->
+       <form class="mainForms2 eight columns floatLeft marginBottom50" action="" method="POST">
+          <h2 class="formHeader paddingTop10 paddingBottom20">Create Account</h2>
+          <span class="displayBlock positionRelative recipeCaption captionLine textAlignCenter marginBottom10">* Required Fields </span>
+          <div class="doubleColumn floatLeft marginLeftNone">
+              <label class="marginBottom10 colour3A" for="firstName">First Name *</label>
+              <input class="floatLeft" type="text" id="firstName" name="firstName" value="" />
+          </div>
+          <div class="doubleColumn floatLeft marginLeftNone">
+              <label class="marginBottom10 colour3A" for="lastName">Last Name *</label>
+              <input class="floatLeft" type="text" id="lastName" name="lastName" value="" />
+          </div>
+          <div class="doubleColumn floatLeft marginLeftNone">
+              <label class="marginBottom10 colour3A" for="username">Username *</label>
+              <input class="floatLeft" type="text" id="username" name="username" value="" />
+          </div>
+          <div class="doubleColumn floatLeft marginLeftNone">
+              <label class="marginBottom10 colour3A" for="email">Email *</label>
+              <input class="floatLeft" type="text" id="email" name="email" value="" />
+          </div>
+          <div class="doubleColumn floatLeft marginLeftNone">
+              <label class="marginBottom10 colour3A" for="address">Address *</label>
+              <input class="floatLeft" type="text" id="address" name="address" value="" />
+          </div>
+          <div class="doubleColumn floatLeft marginLeftNone">
+              <label class="marginBottom10 colour3A" for="telephone">Telephone *</label>
+              <input class="floatLeft" type="text" id="telephone" name="telephone" value="" />
+          </div>
+          <div class="doubleColumn floatLeft marginLeftNone">
+              <label class="marginBottom10 colour3A" for="password">Password *</label>
+              <input class="floatLeft" type="password" id="password" name="password" value="" />
+          </div>
+          <div class="doubleColumn floatLeft marginLeftNone">
+              <label class="marginBottom10 colour3A" for="password">Password *</label>
+              <input class="floatLeft" type="password" id="password" name="password" value="" />
+          </div>
+          <div class="marginBottom20">
+              <input class="floatLeft marginTop5" type="checkbox" id="" name="" />
+              <span class="newsFootnote colour66">Subscribe to the Get In My Belly Newsletter</span>
+          </div>
+          
+          <input class="blueButton bgBlue marginBottom10" type="submit" id="signUp" name="signUp" value="create" />
+       </form>
+   </div>
+   <!-- footer 2 area -->
+   <footer class="bg3A">
+       <div class="container">
+           <ul class="offset-by-five footerNav paddingTop20 marginBottomNone">
+               <li class="floatLeft two columns textAlignCenter"><a href="">Home</a></li>
+               <li class="floatLeft two columns textAlignCenter"><a href="">Recipes</a></li>
+               <li class="floatLeft two columns textAlignCenter"><a href="">Shop</a></li>
+           </ul>
+           <p class="footNote marginBottomNone textAlignCenter">&copy; Get in my Belly 2015 All Rights Reserved</p>
+       </div>
+   </footer>
+</body>
+</html>

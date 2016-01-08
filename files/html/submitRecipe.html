@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Get In My Belly</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="assets/stylesheets/base.css">
+	<link rel="stylesheet" href="assets/stylesheets/skeleton.css">
+	<link rel="stylesheet" href="assets/stylesheets/layout.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<!-- Fonts
+	================================================== -->
+	<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700,300italic,400italic,600italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="assets/images/favicon.ico">
+	<link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114.png">
+
+</head>
+<body>
+   <div class="container selfClear">
+       <!-- top header -->
+        <img class="six columns offset-by-five marginTop20 floatLeft" src="images/getInMyBellyLogoSVG.svg" alt="get-in-my-belly-logo" />
+        <div class="three columns offset-by-two floatLeft paddingTop30">
+            <span class="topNav paddingTop10"><a href="#">Sign-In | Create Account</a></span>
+            <span class="topNav paddingTop10"><a href="#">Shopping Basket (0)</a></span>
+        </div>
+   </div>
+   <!-- navigation -->
+   <div class="container marginBottom20 selfClear">
+        <div class="mainNav">
+            <ul class="offset-by-five">
+                <li class="floatLeft two columns textAlignCenter"><a class="active-link" href="index.html">Home</a></li>
+                <li class="floatLeft two columns textAlignCenter"><a href="#">Recipes</a></li>
+                <li class="floatLeft two columns textAlignCenter"><a href="#">Shop</a></li>
+            </ul>
+        </div>
+   </div>
+   <!-- header 1 section -->
+   <div class="container">
+       <h1 class="textAlignCenter marginBottom30">Submit a Recipe</h1>
+       <span class="displayBlock positionRelative recipeCaption captionLine textAlignCenter marginBottom10">* Required Fields </span>
+       <!-- submit recipe form starts here -->
+       <form class="otherForms" action="" method="POST" enctype="multipart/form-data">
+          <div class="eight columns floatLeft marginBottom10">
+              <label class="marginBottom10 colour3A" for="recipeTitle">Recipe Title *</label>
+              <input type="text" id="recipeTitle" name="recipeTitle" value="" />
+          </div>
+          <div class="eight columns floatLeft marginBottom10">
+            <label class="marginBottom10 colour3A" for="recipeCategory">Recipe Category *</label>          
+            <select>
+              <option value="breakfast">Breakfast</option>
+              <option value="lunch">Lunch</option>
+              <option value="dinner">Dinner</option>
+              <option value="treats">Treats</option>
+              <option value="drinks">Drinks</option>
+            </select>
+          </div>
+          <div class="eight columns floatLeft marginBottom20">
+              <!-- image upload -->
+              <div class="imageBox marginBottom10">
+                  <div class="line1"></div>
+                  <div class="line2"></div>
+              </div>
+              <label class="marginBottom10 colour3A" for="fileToUpload">Image Upload *</label>
+              <input type="file" name="fileToUpload" id="fileToUpload">
+              <input class="blueButton2 bgBlue floatRight marginRight10" type="submit" value="Upload Image" name="submit">
+          </div>
+          <div class="eight columns floatLeft marginBottom10">
+            <!-- author notes -->
+            <label class="marginBottom10 colour3A" for="authorNotes">Author Notes *</label>          
+            <textarea></textarea>
+            <!-- ingredients -->
+            <label class="marginBottom10 colour3A" for="recipeIngredients">Ingredients *</label>          
+            <textarea></textarea>
+          </div>
+          <div class="clearBoth marginRight10 marginBottom30 marginLeft10">
+            <!-- directions -->
+            <label class="marginBottom10 colour3A" for="recipeDirections">Directions *</label>          
+            <textarea class="width100"></textarea>
+          </div>
+          <input class="blueButton bgBlue marginBottom30" type="submit" id="submitRecipe" name="submitRecipe" value="submit" />
+       </form>
+   </div>
+   <!-- footer area -->
+   <footer class="bg3A">
+       <div class="container">
+           <ul class="offset-by-five footerNav paddingTop20 marginBottomNone">
+               <li class="floatLeft two columns textAlignCenter"><a href="">Home</a></li>
+               <li class="floatLeft two columns textAlignCenter"><a href="">Recipes</a></li>
+               <li class="floatLeft two columns textAlignCenter"><a href="">Shop</a></li>
+           </ul>
+           <p class="footNote marginBottomNone textAlignCenter">&copy; Get in my Belly 2015 All Rights Reserved</p>
+       </div>
+   </footer>
+</body>
+</html>
